@@ -1,0 +1,35 @@
+#Graham Hoehing
+.data
+y:.byte 33
+z:.byte 0
+x:.byte 16
+.text
+lb $t0, x
+lb  $t1,y
+#Subtracts
+sub  $t2, $t1, $t0
+#Saves to Z
+sb  $t2,z
+#sets x to z
+la $t0, x
+sb  $t2,2($t0)
+sb, $t2, x
+#sets y to z
+la $t0, y
+sb  $t2,1($t0)
+sb, $t2, y
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+

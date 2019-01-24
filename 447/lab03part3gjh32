@@ -1,0 +1,45 @@
+.data
+Array_A: .word 0xa1a2a3a4, 0xa5a6a7a8, 0xacabaaa9
+str1: .asciiz "Please enter Index:\n"
+str2: .asciiz "\nHere is the output (word):\n"
+str3: .asciiz "\nHere is the output (h.word):\n"
+str4: .asciiz "\nHere is the output (byte):\n"
+x: .word 4
+y: .half 2
+z: .byte 1
+temp: .word 1
+
+.text
+
+	li $v0, 4
+	la $a0, str1
+	syscall
+	li	$v0, 12			 
+	syscall
+	move 	$t0, $v0 #user entry is stored is $t0
+	li $v0, 4
+	la $a0, str2,
+	la $t1,x
+	mult $t1,$t0
+	lw  $t2,Array_A
+	mflo $t1 
+	sw $t1,temp
+
+	la  $s0,temp($t2)
+	addi $s0,$0,1
+	syscall 
+	
+	
+	li $v0, 4
+	la $a0, str3
+	syscall
+	
+	li $v0, 4
+	la $a0, str4
+	syscall
+	
+	
+	
+	
+	
+			

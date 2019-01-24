@@ -1,0 +1,50 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Graham Hoehing
+
+Lecture section:   T/TH 9:30
+
+Recitation day and time:  F 11
+
+Assignment #:  Project 5
+
+Program due date:  12/22
+
+Handed in date:  12/12
+
+Source code file name(s):
+HashEx.java
+LargeInteger.java
+RsaKeyGen.java
+RsaSign.java
+
+
+Other file name(s) (if relevant):
+None
+
+
+Does your program run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+N/A
+
+Additional comments to the grader:
+
+I was not able to successfully implement the modularExp method. As a result, to complete the project, in RsaKeyGen and RsaSign I
+created new BigInteger objects using the val of the LargeInteger objects generated from the multiply and XGCD methods in order to
+use modInverse and modPow methods.
+
+Basically, everything works as expected but modularExp which was basically implenented using BigInteger. There are no BigInteger calls
+in the LargeInteger class as required by the project specifications besides the constructor. Sorry!
+
+
+
+
+

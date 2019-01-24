@@ -1,0 +1,42 @@
+Name:Graham Hoehing Assignment #: 1
+
+Lecture Day and Time: T/Th 9:30-10:45
+
+Recitation Day and Time: 11:00am-11:50am Wednesday
+
+Program Due Date: 1/27/2017
+
+Handed in Date: 1/24/2017
+
+Source code (.java) file name(s):
+
+Assig1A.java, Card.java, MultiDS.java, PrimQ.java, Reorder.java War.java
+
+Compiled (.class) file name(s): 
+Assig1A.class, Card.class, MultiDS.class, PrimQ.class, Reorder.class War.class
+
+Does your program compile without error?: Yes 
+
+If not, what is/are the error(s)?:
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Does your program run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run correctly?:
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Additional comments (including problems and extra credit):
+
+NA
